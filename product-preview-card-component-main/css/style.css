@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+
+:root {
+  --Dark-cyan: #3c8067;
+  --Cream: #f2ebe3;
+  --Very-dark-blue: #1c232b;
+  --Dark-grayish-blue: #6c7289;
+  --White: #ffffff;
+}
+
+body 
+{
+  background-color: var(--Cream);
+}
+
+main 
+{
+  margin-top: 10rem;
+  display: flex;
+  margin-inline: 26.5rem;
+  width: 40vw;
+  height: 50.3vh;
+  position: relative;
+}
+
+.container_1 img
+ {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  width: 21vw;
+  filter: contrast(1);
+}
+
+.container_2 
+{
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  height: 119%;
+}
+
+.container_2 h3
+ {
+  font-family: "Montserrat", sans-serif;
+  color: var(--Dark-grayish-blue);
+  margin-top: 1.7rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  font-size: 13px;
+}
+
+.container_2 h1
+ {
+  color: var(--Very-dark-blue);
+  font-family: "Fraunces", serif;
+  margin-left: 2.5rem;
+  margin-top: -1rem;
+}
+.container_2 p
+ {
+  font-weight: 790;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  width: 70%;
+  font-size: 15px;
+  margin-inline: 2.5rem;
+  line-height: 1.7;
+  color: hsl(229, 8%, 60%);
+}
+
+.container_2 .prize{
+  color: var(--Dark-cyan);
+  display: flex;
+  align-items: center;
+  font-family: "Fraunces", serif;
+  margin-top:1.5rem;
+}
+
+.container_2 span 
+{
+  color: hsl(229, 8%, 60%);
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 2rem;
+}
+
+button
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Dark-cyan);
+  border: none;
+  width: 15rem;
+  height: 2.6rem;
+  margin-inline: 3rem;
+  color: var(--White); 
+  font-weight: 900;
+  margin-top:1.5rem;
+  border-radius: 7px;
+}
+button img
+ {
+  margin-right: 1rem;
+}
